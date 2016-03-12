@@ -2641,3 +2641,7 @@ h4.related-posts-main-title span{
     margin-left: 35px;
     display: inherit;
 }
+
+h2.article-description {
+    font-size: 18px;
+}
