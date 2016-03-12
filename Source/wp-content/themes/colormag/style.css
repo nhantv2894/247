@@ -2613,6 +2613,31 @@ header#masthead{
 .menu-primary-container li:focus{
     outline: none;
 }
+/* =BODY CUSTOM
+----------------------------------------------- */
 body.custom-background{
     background: url("img/background.gif") repeat-y center center;
+}
+/* =RELATED POST CUSTOM
+----------------------------------------------- */
+h4.related-posts-main-title{
+    padding-top: 20px;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d92129;
+}
+h4.related-posts-main-title span{
+    font-size: 18px;
+    background: #d92129;
+    color: white;
+    padding: 5px 10px;
+}
+
+#secondary .widget ul li{
+    background: url("img/Icon_header.png") no-repeat left center;
+    padding: 10px 0px !important;
+}
+#secondary .widget ul li a{
+    margin-left: 35px;
+    display: inherit;
 }
