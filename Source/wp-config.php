@@ -19,13 +19,13 @@
 define('DB_NAME', 'thegioitre247');
 
 /** MySQL database username */
-define('DB_USER', 'thegioitre247');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'tgtDB@247@ITD');
+define('DB_PASSWORD', 'mysql');
 
 /** MySQL hostname */
-define('DB_HOST', 'thegioitre247.db.11297356.hostedresource.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

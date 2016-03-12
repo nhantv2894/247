@@ -136,6 +136,7 @@ p {
 	margin-bottom: 15px;
 	font-family: 'Open Sans', serif;
 	font-size: 15px;
+    text-align: justify;
 }
 strong {
 	font-weight: bold;
@@ -1979,6 +1980,12 @@ a#scroll-up:hover {
    font-size: 10px;
    padding-right: 3px;
 }
+.comments .fa{
+    display: none;
+}
+.comments > a{
+    display: none;
+}
 .widget_highlighted_posts .article-content .below-entry-meta .byline .fa,
 .widget_highlighted_posts .article-content .below-entry-meta .comments .fa {
    color: #ffffff;
@@ -2433,7 +2440,7 @@ Responsive Structure
 --------------------------------------------------------------*/
 @media screen and (max-width: 1190px) {
    #page {
-      width: 97%;
+      width: 100%;
    }
    .wide #page {
       width: 100%;
@@ -2482,6 +2489,7 @@ Responsive Structure
       width: 100%;
    }
    .widget_slider_area {
+       display: none;
       padding-bottom: 10px;
    }
    #primary, #secondary {
@@ -2604,4 +2612,7 @@ header#masthead{
 }
 .menu-primary-container li:focus{
     outline: none;
+}
+body.custom-background{
+    background: url("img/background.gif") repeat-y center center;
 }
