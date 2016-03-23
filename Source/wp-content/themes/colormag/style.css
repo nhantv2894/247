@@ -1882,6 +1882,13 @@ a#scroll-up:hover {
    font-size: 12px;
    padding: 3px 10px;
 }
+#secondary .widget_featured_slider .slide-content .above-entry-meta {
+    display: none;
+}
+#secondary .widget_featured_slider .slide-content .entry-title {
+    padding: 10px 0 0;
+    font-size: 13px;
+}
 .widget_featured_slider .slide-content .entry-title {
    padding: 10px 0 0;
    font-size: 22px;
@@ -2643,5 +2650,33 @@ h4.related-posts-main-title span{
 }
 
 h2.article-description {
+	text-align: justify;
     font-size: 18px;
 }
+/*------ ADD 14/03 ---------*/
+.single-article figure, .related-posts-thumbnail{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.following-post figure{
+    background: #000;
+}
+.single-article figure img, .related-posts-thumbnail img{
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.following-post figure img:hover{
+    opacity: .7;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    transform: rotate(-5deg) scale(1.2);
+}
+.first-post figure img:hover, .related-posts-thumbnail img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+span.comments span{display: none;}
