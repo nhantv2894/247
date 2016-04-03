@@ -852,6 +852,11 @@ class colormag_300x250_advertisement_widget extends WP_Widget {
       echo $before_widget; ?>
 
       <div class="advertisement_300x250">
+
+          <!-- Quảng Cáo - right bar -->
+          <script type="text/javascript"
+                  src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+          </script>
          <?php if ( !empty( $title ) ) { ?>
             <div class="advertisement-title">
                <?php echo $before_title. esc_html( $title ) . $after_title; ?>
